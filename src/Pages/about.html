@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Stovetop Bakery</title>
+    <link rel="icon" type="image/png" href="../../assets/favicon.jpg">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 font-sans antialiased text-stone-800">
+
+    <!-- Navbar (Links Adjusted for nested folder) -->
+    <nav class="bg-white shadow-sm p-5">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="../../index.html" class="text-3xl font-serif font-bold text-amber-900 tracking-tight">Stovetop Bakery</a>
+            
+            <div class="space-x-8 flex items-center">
+                <a href="../../index.html" class="text-stone-600 hover:text-amber-900 font-medium transition">Home</a>
+                <a href="about.html" class="text-amber-900 font-bold transition">About</a>
+                <a href="contact.html" class="text-stone-600 hover:text-amber-900 font-medium transition">Contact</a>
+                <a href="signin.html" class="text-stone-600 hover:text-amber-900 font-medium transition">Sign In</a>
+                <a href="signup.html" class="bg-amber-900 text-white px-6 py-2.5 rounded-full hover:bg-stone-800 transition-colors font-medium">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header Component -->
+        <section class="bg-stone-200 py-20 text-center px-10">
+            <h1 class="text-5xl font-serif font-bold text-amber-900 mb-4">Our Story</h1>
+            <p class="text-stone-600 max-w-2xl mx-auto text-lg">Baking happiness every day, without an oven. Discover how our unique pot-in-pot stovetop method started.</p>
+        </section>
+        
+        <!-- Text & Image Block -->
+        <section class="max-w-6xl mx-auto px-10 py-16 flex flex-col md:flex-row items-center gap-12">
+            
+            <!-- Text -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-serif font-bold text-amber-900 mb-6">How It All Started</h2>
+                <p class="text-stone-600 mb-4 leading-relaxed">It started with a simple craving for brownies and no oven in sight. We thought, why not try the stovetop? Using a unique pot-in-pot method, our very first batch came out surprisingly perfect—dense, rich, and ultra-fudgy.</p>
+                <p class="text-stone-600 leading-relaxed">Today, Stovetop Bakery uses that exact same technique to bring you freshly baked artisan treats daily. Our mission is simple: high-quality ingredients, zero shortcuts, and a lot of passion in every single bite.</p>
+            </div>
+
+            <!-- Image -->
+            <div class="w-full md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop" alt="Baking Process" class="rounded-3xl shadow-lg w-full object-cover h-80">
+            </div>
+
+        </section>
+
+        <!-- Team Members Section -->
+        <section class="max-w-4xl mx-auto px-10 py-16">
+            <h2 class="text-3xl font-serif font-bold text-amber-900 text-center mb-12">Meet The Bakers</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                
+                <!-- Team Member 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100 text-center hover:-translate-y-1 transition">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop" alt="Head Baker" class="w-32 h-32 rounded-full mx-auto object-cover mb-4 shadow-md">
+                    <h3 class="text-xl font-bold text-stone-800">Aisha Khan</h3>
+                    <p class="text-amber-900 font-medium mb-2">Co-Founder & Head Baker</p>
+                    <p class="text-stone-600 text-sm">Expert in mastering the pot-in-pot technique and recipe development.</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-100 text-center hover:-translate-y-1 transition">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop" alt="Operations Manager" class="w-32 h-32 rounded-full mx-auto object-cover mb-4 shadow-md">
+                    <h3 class="text-xl font-bold text-stone-800">Fatima Ali</h3>
+                    <p class="text-amber-900 font-medium mb-2">Co-Founder & Operations</p>
+                    <p class="text-stone-600 text-sm">Ensures every freshly baked batch reaches you in perfect condition.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQs Section -->
+        <section class="bg-stone-50 py-16 px-10">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-serif font-bold text-amber-900 text-center mb-10">Frequently Asked Questions</h2>
+                
+                <div class="bg-white rounded-2xl shadow-sm p-8 border border-stone-100">
+                    
+                    <!-- FAQ 1 -->
+                    <details class="group mb-4 pb-4 border-b border-stone-200">
+                        <summary class="font-bold text-stone-800 cursor-pointer text-lg list-none flex justify-between items-center">
+                            How long do the brownies stay fresh?
+                            <span class="text-amber-900 font-bold group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <p class="text-stone-600 mt-4 leading-relaxed">Our stovetop brownies stay fresh for up to 5 days when stored in an airtight container at room temperature. You can also microwave them for 10 seconds for that fresh-out-of-the-pot gooeyness!</p>
+                    </details>
+
+                    <!-- FAQ 2 -->
+                    <details class="group mb-4 pb-4 border-b border-stone-200">
+                        <summary class="font-bold text-stone-800 cursor-pointer text-lg list-none flex justify-between items-center">
+                            Do you offer gluten-free options?
+                            <span class="text-amber-900 font-bold group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <p class="text-stone-600 mt-4 leading-relaxed">Currently, we focus on our classic wheat-based recipe to perfect the stovetop method, but we are working on a delicious gluten-free variant coming soon.</p>
+                    </details>
+
+                    <!-- FAQ 3 -->
+                    <details class="group">
+                        <summary class="font-bold text-stone-800 cursor-pointer text-lg list-none flex justify-between items-center">
+                            How does the pot-in-pot method work?
+                            <span class="text-amber-900 font-bold group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <p class="text-stone-600 mt-4 leading-relaxed">We place a smaller baking pan inside a larger heavy-bottomed pot on the stove. The large pot traps heat exactly like an oven, baking the brownies slowly to retain maximum moisture and fudginess.</p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-stone-300 py-10 mt-12">
+        <div class="max-w-6xl mx-auto px-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-2xl font-serif text-white mb-4">Stovetop Bakery</h3>
+                <p class="text-sm text-stone-400">Perfectly fudgy, baked fresh daily without an oven. Experience the pot-in-pot magic.</p>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <h4 class="text-white font-bold mb-2">Quick Links</h4>
+                <a href="../../index.html" class="hover:text-amber-500 transition text-sm">Home</a>
+                <a href="about.html" class="hover:text-amber-500 transition text-sm">About Us</a>
+                <a href="contact.html" class="hover:text-amber-500 transition text-sm">Contact</a>
+            </div>
+            <div class="flex flex-col justify-between">
+                <h4 class="text-white font-bold mb-2">Follow Us</h4>
+                <div class="flex space-x-4 mb-4">
+                    <a href="#" class="hover:text-white transition">Instagram</a>
+                    <a href="#" class="hover:text-white transition">Facebook</a>
+                </div>
+                <p class="text-xs text-stone-500">&copy; 2026 Stovetop Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
